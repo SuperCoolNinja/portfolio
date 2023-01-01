@@ -43,7 +43,7 @@ export const Project = ({ t }) => {
             stack={"HTML/CSS/JS"}
             img={rock_paper}
             textAbout={"Demo"}
-            link={"https://supercoolninja.github.io/RockPaperScissors-/"}
+            link={"https://supercoolninja.github.io/ROCK-PAPER-SCISSORS/"}
           />
         </div>
 
