@@ -3,7 +3,7 @@ import { LogosGithubIcon, LogosLinkedinIcon, LogosYoutubeIcon } from "../icons"
 export const Socials : React.FunctionComponent  = () => 
 {
   return <div>
-      <ul className="flex justify-center items-center gap-5"> 
+      <ul className="flex items-center gap-5"> 
         <li title={"Github"} >
           <a href="https://github.com/SuperCoolNinja?tab=repositories" target="_blank">
             <LogosGithubIcon />
