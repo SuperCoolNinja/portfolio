@@ -1,4 +1,5 @@
 import { ProfilSide } from "../profil_side";
+import { Title } from "../shared/title";
 
 
 export const App: React.FunctionComponent = () => {
@@ -9,7 +10,7 @@ export const App: React.FunctionComponent = () => {
       </div>
     
       <div className="w-full bg-[#fafafa]">
-        
+        <Title title={"Skills"}/>
       </div>
     </div>
   );
