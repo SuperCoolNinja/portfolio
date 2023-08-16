@@ -9,7 +9,8 @@ export const App: React.FunctionComponent = () => {
         <ProfilSide />
       </div>
     
-      <div className="w-full bg-[#fafafa]">
+      <div className="w-full ">
+        <Title title={"Projects"}/>
         <Title title={"Skills"}/>
       </div>
     </div>
