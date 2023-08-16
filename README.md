@@ -1,2 +1,2 @@
 # portfolio
-Personnal Portfolio using React, Typescript, Tailwind, 
+Personnal Portfolio using React, Typescript, Tailwind.
