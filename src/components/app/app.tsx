@@ -11,7 +11,9 @@ export const App: React.FunctionComponent = () => {
     
       <div className="w-full ">
         <Title title={"Projects"}/>
+        <h1 className="text-center text-4xl font-bold">SOON</h1>
         <Title title={"Skills"}/>
+        <h1 className="text-center text-4xl font-bold">SOON</h1>
       </div>
     </div>
   );
