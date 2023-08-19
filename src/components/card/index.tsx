@@ -30,9 +30,9 @@ export const Card: React.FunctionComponent<ICard> = ({
           </div>
 
           <div>
-            <ul className="flex flex-wrap gap-2 text-[#ff0000ad] font-bold text-xs lg:text-[0.8rem] underline ">
+            <ul className="flex flex-wrap gap-2">
               {stacks.map((v, i) => (
-                <li key={i}>{v}</li>
+                <li className="text-[#000000ad] font-black text-xs lg:text-[0.6rem] bg-[#f9f9f9] p-2 rounded-full" key={i}>{v}</li>
               ))}
             </ul>
           </div>
