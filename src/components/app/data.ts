@@ -8,6 +8,7 @@ export const cards: ICard[] = [
     image:
       "https://cdn.discordapp.com/attachments/554479498721099787/1142470441617850482/image.png",
     stacks: ["HTML", "SASS", "TYPESCRIPT", "NODE", "JWT", "REACT"],
+    source_code : "https://github.com/SuperCoolNinja/auth",
   },
   {
     title: "TodoList",
@@ -17,5 +18,6 @@ export const cards: ICard[] = [
     image:
       "https://cdn.discordapp.com/attachments/554479498721099787/1142498238449070140/image.png",
     stacks: ["HTML", "SASS", "TYPESCRIPT", "REACT"],
+    source_code : "https://github.com/SuperCoolNinja/todolist",
   },
 ];

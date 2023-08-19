@@ -4,4 +4,7 @@ export interface ICard {
   description: string;
   image: string;
   stacks: string[];
+  source_code?: string;
+  demo?: string;
+  showcase?: string;
 }
