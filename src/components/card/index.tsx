@@ -9,10 +9,10 @@ export const Card: React.FunctionComponent<ICard> = ({
 }) => {
   return (
     <div className="mb-6 lg:mb-20 w-full">
-      <div className="shadow-md hover:shadow-lg hover:cursor-pointer transition-all duration-300 ease-in-out rounded-lg">
-        <div className="w-full h-52 lg:h-60">
+      <div className="hover:shadow-lg hover:cursor-pointer transition-all duration-300 ease-in-out rounded-lg">
+        <div className="shadow-md w-full h-52 lg:h-60 rounded-lg ">
           <img
-            className="w-full h-full lg:object-cover object-cover"
+            className="w-full h-full object-cover rounded-lg"
             src={image}
             alt={title}
           />
