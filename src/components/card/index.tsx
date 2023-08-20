@@ -1,5 +1,5 @@
 import { ICard } from "../../interfaces/ICard";
-import { LogosGithubIcon } from "../icons";
+import { IconParkPreviewOpen, LogosGithubIcon, LogosVIcon } from "../icons";
 
 export const Card: React.FunctionComponent<ICard> = ({
   title,
@@ -8,6 +8,8 @@ export const Card: React.FunctionComponent<ICard> = ({
   image,
   stacks,
   source_code,
+  v_mod,
+  demo,
 }) => {
   return (
     <div className="mb-6 lg:mb-20 w-full">
@@ -25,12 +27,33 @@ export const Card: React.FunctionComponent<ICard> = ({
             <div className="flex justify-between">
               <h3 className="font-bold text-lg lg:text-xl">{title}</h3>
 
-              {source_code && (
-                <a href={source_code} target="_blank">
-                  <LogosGithubIcon fill={"#5e5b5b"} />
-                </a>
-              )}
+              <ul className="flex items-center gap-3">
+                {demo && (
+                  <li>
+                    <a href={demo} target="_blank">
+                      <IconParkPreviewOpen fill={"#30a52c"} />
+                    </a>
+                  </li>
+                )}
+
+                {v_mod && (
+                  <li>
+                    <a href={v_mod} target="_blank">
+                      <LogosVIcon fill={"#30a52c"} />
+                    </a>
+                  </li>
+                )}
+
+                {source_code && (
+                  <li>
+                    <a href={source_code} target="_blank">
+                      <LogosGithubIcon fill={"#5e5b5b"} />
+                    </a>
+                  </li>
+                )}
+              </ul>
             </div>
+
             <h4 className="font-semibold text-[#4b9fff] text-sm lg:text-base">
               {subtitle}
             </h4>

@@ -8,7 +8,8 @@ export const cards: ICard[] = [
     image:
       "https://cdn.discordapp.com/attachments/554479498721099787/1142470441617850482/image.png",
     stacks: ["HTML", "SASS", "TYPESCRIPT", "NODE", "JWT", "REACT"],
-    source_code : "https://github.com/SuperCoolNinja/auth",
+    source_code: "https://github.com/SuperCoolNinja/auth",
+    // v_mod: "https://fr.gta5-mods.com/scripts/gta_marker",
   },
   {
     title: "TodoList",
@@ -18,6 +19,29 @@ export const cards: ICard[] = [
     image:
       "https://cdn.discordapp.com/attachments/554479498721099787/1142498238449070140/image.png",
     stacks: ["HTML", "SASS", "TYPESCRIPT", "REACT"],
-    source_code : "https://github.com/SuperCoolNinja/todolist",
+    source_code: "https://github.com/SuperCoolNinja/todolist",
+    demo: "https://supercoolninja-todo-list.vercel.app/",
+  },
+  {
+    title: "Rock Paper Scissors",
+    subtitle: "Front-end - 2022",
+    description:
+      "Rock-paper-scissors implemented where you challenge a local bot.",
+    image:
+      "https://cdn.discordapp.com/attachments/554479498721099787/1142803627661086742/image.png",
+    stacks: ["HTML", "CSS", "JAVASCRIPT"],
+    source_code: "https://github.com/SuperCoolNinja/ROCK-PAPER-SCISSORS",
+    demo: "https://supercoolninja.github.io/ROCK-PAPER-SCISSORS/",
+  },
+  {
+    title: "Paint Web App",
+    subtitle: "Front-end - 2021",
+    description:
+      "A board where you can draw using a provided color palette, change your brush size, and erase everything, all with a modern and compact design.",
+    image:
+      "https://cdn.discordapp.com/attachments/554479498721099787/1142804753869459567/image.png",
+    stacks: ["HTML", "CSS", "JAVASCRIPT", "CANVAS"],
+    source_code: "https://github.com/SuperCoolNinja/Paint-Web-App",
+    demo: "https://supercoolninja.github.io/Paint-Web-App/",
   },
 ];

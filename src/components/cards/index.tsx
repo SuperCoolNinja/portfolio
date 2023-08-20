@@ -16,7 +16,7 @@ export const Cards: React.FunctionComponent<{ cards: ICard[] }> = ({
             stacks={v.stacks}
             source_code={v.source_code || ""}
             demo={v.demo || ""}
-            showcase={v.showcase || ""}
+            v_mod={v.v_mod || ""}
           />
         </div>
       ))}
