@@ -6,7 +6,7 @@ import { Socials } from "../socials";
 export const ProfilSide: React.FunctionComponent = () => {
   return (
     <div className="flex flex-col relative justify-around mt-10 mx-14 gap-10 lg:gap-0">
-      <div className="flex flex-col justify-center items-center gap-5">
+      <div className="flex flex-col justify-center items-center lg:gap-2 gap-5">
         <Img_Logo />
         <FullName />
         <Socials />
@@ -18,7 +18,7 @@ export const ProfilSide: React.FunctionComponent = () => {
         <Bio />
       </div>
 
-      <p className="text-center font-semibold text-[1.2rem] text-[#21232494]">
+      <p className="text-center font-semibold text-[1.2rem] text-[#21232494] pb-10">
         ©SuperCoolNinja - 2023.
       </p>
     </div>
