@@ -1,6 +1,7 @@
 import { Cards } from "../cards";
 import { ProfilSide } from "../profil_side";
 import { Title } from "../shared/title";
+import { Skills } from "../skills";
 import { cards } from "./data";
 
 export const App: React.FunctionComponent = () => {
@@ -17,7 +18,7 @@ export const App: React.FunctionComponent = () => {
           <Title title={"Projects"} />
           <Cards cards={cards} />
           <Title title={"Skills"} />
-          
+          <Skills />
         </div>
       </div>
     </div>
