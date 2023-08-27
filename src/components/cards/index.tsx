@@ -17,22 +17,30 @@ export const Cards: React.FunctionComponent<{ cards: ICard[] }> = ({
     categorizedCards[card.category].push(card);
   });
 
-  const carouselSettings = {
+  const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 2,
     slidesToScroll: 1,
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div>
       {Object.keys(categorizedCards).map((category, index) => (
-        <div key={index}>
+        <div key={index} className="overflow-hidden p-5">
           <h2 className="text-xl font-bold m-5 uppercase">{category}</h2>
-          <Slider {...carouselSettings}>
+          <Slider {...settings}>
             {categorizedCards[category].map((v, i) => (
-              <div key={i} className="p-4">
+              <div key={i} className="p-5">
                 <Card
                   title={v.title}
                   subtitle={v.subtitle}
