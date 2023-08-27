@@ -7,4 +7,5 @@ export interface ICard {
   source_code?: string;
   demo?: string;
   v_mod?: string;
+  category: string;
 }
