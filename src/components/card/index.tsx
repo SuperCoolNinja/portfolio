@@ -22,7 +22,7 @@ export const Card: React.FunctionComponent<ICard> = ({
           />
         </div>
 
-        <div className="flex flex-col items-start justify-between p-3 lg:p-4 min-h-[10rem] lg:min-h-[15rem]">
+        <div className="flex flex-col justify-between p-3 lg:p-4 min-h-[10rem] lg:min-h-[15rem]">
           <div className="flex flex-col gap-1 lg:gap-2">
             <div className="flex justify-between">
               <h3 className="font-bold text-lg lg:text-xl">{title}</h3>

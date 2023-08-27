@@ -36,8 +36,17 @@ export const Cards: React.FunctionComponent<{ cards: ICard[] }> = ({
   return (
     <div>
       {Object.keys(categorizedCards).map((category, index) => (
-        <div key={index} className="overflow-hidden p-5">
-          <h2 className="text-xl font-bold m-5 uppercase">{category}</h2>
+        <div
+          key={index}
+          className="overflow-hidden lg:p-20 p-5"
+        >
+          <div className="w-[6rem] mb-5 ml-5 mt-20 lg:mt-0">
+            <h2 className="text-2xl font-bold uppercase text-[#232423c5] ">
+              {category}
+            </h2>
+            <div className="h-[0.3rem] rounded-xl bg-[#0044ff56]"></div>
+          </div>
+
           <Slider {...settings}>
             {categorizedCards[category].map((v, i) => (
               <div key={i} className="p-5">
