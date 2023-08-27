@@ -24,18 +24,6 @@ export const cards: ICard[] = [
     category: "web",
   },
   {
-    title: "Rock Paper Scissors",
-    subtitle: "Front-end - 2022",
-    description:
-      "Rock-paper-scissors implemented where you challenge a local bot.",
-    image:
-      "https://cdn.discordapp.com/attachments/554479498721099787/1142803627661086742/image.png",
-    stacks: ["HTML", "CSS", "JAVASCRIPT"],
-    source_code: "https://github.com/SuperCoolNinja/ROCK-PAPER-SCISSORS",
-    demo: "https://supercoolninja.github.io/ROCK-PAPER-SCISSORS/",
-    category: "web",
-  },
-  {
     title: "Paint Web App",
     subtitle: "Front-end - 2021",
     description:

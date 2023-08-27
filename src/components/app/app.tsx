@@ -17,6 +17,7 @@ export const App: React.FunctionComponent = () => {
           <Title title={"Projects"} />
           <Cards cards={cards} />
           <Title title={"Skills"} />
+          
         </div>
       </div>
     </div>
