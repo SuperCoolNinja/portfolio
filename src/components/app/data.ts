@@ -37,28 +37,28 @@ export const cards: ICard[] = [
   },
   {
     title: "PongGame",
-    subtitle: "Game - 2023",
+    subtitle: "Game Development - 2023",
     description: "a Pong Game made to learn and practise basic 2D Math Logic.",
     image:
       "https://cdn.discordapp.com/attachments/554479498721099787/1145373492146077750/Capture_decran_2023-08-27_a_17.04.50.png",
     stacks: ["LUA", "LOVE2D"],
     source_code: "https://github.com/SuperCoolNinja/love2D-pongGame",
-    category: "game",
+    category: "game development",
   },
   {
     title: "FLAPPYFLYTIME",
-    subtitle: "Game - 2022",
+    subtitle: "Game Development - 2022",
     description:
       "A Flappy Bird clone created to learn the basics of the Unity API.",
     image:
       "https://cdn.discordapp.com/attachments/554479498721099787/1145376252044259471/Capture_decran_2023-08-27_a_17.16.03.png",
     stacks: ["C#", "Unity3D"],
     demo: "https://supercoolninja.itch.io/flappyflytime",
-    category: "game",
+    category: "game development",
   },
   {
     title: "GTA V MARKER",
-    subtitle: "Mods - 2023",
+    subtitle: "Game Modification - 2023",
     description:
       "This project enables you to set markers and watch the distance between you and your set marker on the screen. It also allows you to ping a target with the marked distance in GTA V solo play.",
     image: "https://img.gta5-mods.com/q95/images/gta_marker/cfd0e8-2.png",
@@ -69,7 +69,7 @@ export const cards: ICard[] = [
   },
   {
     title: "GTA V CONSOLE",
-    subtitle: "Mods - 2022",
+    subtitle: "Game Modification - 2022",
     description:
       "A mod for GTA V solo that allows the use of a console for easy debugging of code or simply using commands to perform certain tasks.",
     image:
@@ -81,7 +81,7 @@ export const cards: ICard[] = [
   },
   {
     title: "nGravityGun",
-    subtitle: "Mods - 2020",
+    subtitle: "Game Modification - 2020",
     description:
       "A mod for GTA V solo which allows the ability to make objects gravitate and then freeze them, similar to how it's done in Garry's Mod (GMod).",
     image:
