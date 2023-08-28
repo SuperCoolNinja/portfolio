@@ -18,8 +18,8 @@ export const ProfilSide: React.FunctionComponent = () => {
         <Bio />
       </div>
 
-      <p className="text-center font-semibold text-[1.2rem] text-[#21232494] pb-10">
-        ©SuperCoolNinja - 2023.
+      <p className="text-center font-semibold text-[1rem] text-[#21232494] pb-10">
+        © 2023 SuperCoolNinja
       </p>
     </div>
   );
