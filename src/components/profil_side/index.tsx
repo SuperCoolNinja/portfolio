@@ -6,7 +6,7 @@ import { Socials } from "../socials";
 export const ProfilSide: React.FunctionComponent = () => {
   return (
     <div className="flex flex-col relative justify-around mt-10 mx-14 gap-10 lg:gap-0">
-      <div className="flex flex-col justify-center items-center lg:gap-2 gap-5">
+      <div className="flex flex-col justify-center items-center lg:gap-5 md:gap-2 gap-5">
         <Img_Logo />
         <FullName />
         <Socials />
