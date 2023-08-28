@@ -5,8 +5,8 @@ import { Socials } from "../socials";
 
 export const ProfilSide: React.FunctionComponent = () => {
   return (
-    <div className="flex flex-col relative justify-around mt-10 mx-14 gap-10 lg:gap-0">
-      <div className="flex flex-col justify-center items-center lg:gap-5 md:gap-2 gap-5">
+    <div className="flex flex-col relative justify-around lg:mt-5 mx-14 gap-10 lg:gap-0">
+      <div className="flex flex-col justify-center items-center gap-5">
         <Img_Logo />
         <FullName />
         <Socials />
@@ -14,7 +14,7 @@ export const ProfilSide: React.FunctionComponent = () => {
         <div className="w-2/3 h-[0.1rem] bg-[#2123242a] transition-all mb-10 duration-300 ease-in-out group-hover:w-full group-hover:left-0 group-hover:-translate-x-0"></div>
       </div>
 
-      <div className="lg:mb-52">
+      <div className="lg:mb-20">
         <Bio />
       </div>
 
