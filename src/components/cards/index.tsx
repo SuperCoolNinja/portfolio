@@ -18,7 +18,7 @@ export const Cards: React.FunctionComponent<{ cards: ICard[] }> = ({
   });
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToScroll: 1,
@@ -41,10 +41,10 @@ export const Cards: React.FunctionComponent<{ cards: ICard[] }> = ({
           className="overflow-hidden lg:p-20 p-5"
         >
           <div className="w-[6rem] mb-5 ml-5 mt-20 lg:mt-0">
-            <h2 className="text-2xl font-bold uppercase text-[#232423c5] ">
+            <h2 className="text-2xl font-bold uppercase text-[#fff] ">
               {category}
             </h2>
-            <div className="h-[0.3rem] rounded-xl bg-[#0044ff56]"></div>
+            <div className="h-[0.3rem] rounded-xl bg-[#5297ff]"></div>
           </div>
 
           <Slider {...settings}>

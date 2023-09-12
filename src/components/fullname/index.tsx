@@ -1,1 +1,1 @@
-export const FullName : React.FunctionComponent = () => <h1 className="text-3xl font-bold text-center text-[#2b2a2a]">SuperCoolNinja</h1>
+export const FullName : React.FunctionComponent = () => <h1 className="text-3xl font-bold text-center text-[#fff]">SuperCoolNinja</h1>
