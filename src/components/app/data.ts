@@ -1,6 +1,28 @@
 import { ICard } from "../../interfaces/ICard";
 export const cards: ICard[] = [
   {
+    title: "ChatboxApp",
+    subtitle: "FullStack - 2023",
+    description:
+      "A chatboxApp using NodeJS, Express, Socket.io, ReactJS, TailwindCSS with only one room.",
+    image:
+      "https://media.discordapp.net/attachments/815375604610236426/1168487189454274570/image.png?ex=6551f17f&is=653f7c7f&hm=f554e77fd85df06ce9715c66112862283dc04ca2b53487031d7cee1b08760467&=&width=1191&height=671",
+    stacks: ["SOCKET.IO", "NODEJS", "JAVASCRIPT", "REACTJS", "TAILWINDCSS"],
+    source_code: "https://github.com/SuperCoolNinja/chatboxapp-client",
+    category: "web",
+  },
+  {
+    title: "DragAndDrop",
+    subtitle: "Front-end - 2023",
+    description:
+      "I made this project to learn how drag and drop work using ReactJS.",
+    image:
+      "https://cdn.discordapp.com/attachments/815375604610236426/1159129908673511575/image.png?ex=651ec359&is=651d71d9&hm=605859da9e32e05d3203767b90119ed4d03a0ad366ddec18e69c27aac966f68d",
+    stacks: ["REACTJS", "TAILWINDCSS"],
+    source_code: "https://github.com/SuperCoolNinja/dragItems",
+    category: "web",
+  },
+  {
     title: "Authentication",
     subtitle: "FullStack - 2023",
     description:
