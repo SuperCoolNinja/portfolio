@@ -19,7 +19,7 @@ export const ProfilSide: React.FunctionComponent = () => {
       </div>
 
       <p className="text-center font-semibold text-[1rem] text-[#fff] pb-10">
-        © 2023 SuperCoolNinja
+        © 2024 SuperCoolNinja
       </p>
     </div>
   );
