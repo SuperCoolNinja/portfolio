@@ -8,12 +8,12 @@ export const App: React.FunctionComponent = () => {
   return (
     <div className="flex flex-col lg:flex-row min-h-screen">
       {/* Left side */}
-      <div className="w-full lg:w-1/3 min-h-screen lg:mb-0 lg:p-0 p-10 bg-[#0f172a] border-[#ffffff10] md:border-r-2 border-b-2 flex">
+      <div className="w-full lg:w-1/3 min-h-screen lg:mb-0 lg:p-0 p-10 bg-[#F0F4F9] border-[#ffffff10] md:border-r-2 border-b-2 flex">
         <ProfilSide />
       </div>
 
       {/* Right side */}
-      <div className="w-full bg-[#0f172a] lg:overflow-auto overflow-y-scroll">
+      <div className="w-full bg-[#fff] lg:overflow-auto overflow-y-scroll">
         <div className="flex flex-col min-h-screen">
           <Title title={"Projects"} />
           <Cards cards={cards} />

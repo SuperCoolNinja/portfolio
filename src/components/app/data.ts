@@ -6,22 +6,10 @@ export const cards: ICard[] = [
     description:
       "A chatboxApp using NodeJS, Express, Socket.io, ReactJS, TailwindCSS with only one room.",
     image:
-      "https://media.discordapp.net/attachments/815375604610236426/1168487189454274570/image.png?ex=6551f17f&is=653f7c7f&hm=f554e77fd85df06ce9715c66112862283dc04ca2b53487031d7cee1b08760467&=&width=1191&height=671",
+      "https://image.noelshack.com/fichiers/2024/26/3/1719430745-screenshot-2024-06-26-213857.png",
     stacks: ["SOCKET.IO", "NODEJS", "JAVASCRIPT", "REACTJS", "TAILWINDCSS"],
     demo: "https://chatboxapp-client.vercel.app/",
     source_code: "https://github.com/SuperCoolNinja/chatboxapp-client",
-    category: "web",
-  },
-  {
-    title: "DragAndDrop",
-    subtitle: "Front-end - 2023",
-    description:
-      "I made this project to learn how drag and drop work using ReactJS.",
-    image:
-      "https://cdn.discordapp.com/attachments/815375604610236426/1159129908673511575/image.png?ex=651ec359&is=651d71d9&hm=605859da9e32e05d3203767b90119ed4d03a0ad366ddec18e69c27aac966f68d",
-    stacks: ["REACTJS", "TAILWINDCSS"],
-    demo: "https://drag-items-31sxt6cpy-supercoolninja.vercel.app/",
-    source_code: "https://github.com/SuperCoolNinja/dragItems",
     category: "web",
   },
   {
@@ -30,21 +18,9 @@ export const cards: ICard[] = [
     description:
       "An authentication system I created that allowed me to deepen my understanding of API, backend, and security through the use of JWT.",
     image:
-      "https://cdn.discordapp.com/attachments/554479498721099787/1142470441617850482/image.png",
+      "https://image.noelshack.com/fichiers/2024/26/3/1719430935-screenshot-2024-06-26-214215.png",
     stacks: ["HTML", "SASS", "TYPESCRIPT", "NODE", "JWT", "REACT"],
     source_code: "https://github.com/SuperCoolNinja/auth",
-    category: "web",
-  },
-  {
-    title: "TodoList",
-    subtitle: "Front-end - 2023",
-    description:
-      "A to-do list that enables us to record tasks to be done. We can delete, mark tasks as completed, and set a timer to challenge ourselves. Once all tasks are completed, they are automatically removed.",
-    image:
-      "https://cdn.discordapp.com/attachments/554479498721099787/1142498238449070140/image.png",
-    stacks: ["HTML", "SASS", "TYPESCRIPT", "REACT"],
-    source_code: "https://github.com/SuperCoolNinja/todolist",
-    demo: "https://supercoolninja-todo-list.vercel.app/",
     category: "web",
   },
   {
@@ -53,18 +29,31 @@ export const cards: ICard[] = [
     description:
       "A board where you can draw using a provided color palette, change your brush size, and erase everything, all with a modern and compact design.",
     image:
-      "https://cdn.discordapp.com/attachments/554479498721099787/1142804753869459567/image.png",
+      "https://image.noelshack.com/fichiers/2024/26/3/1719431038-screenshot-2024-06-26-214350.png",
     stacks: ["HTML", "CSS", "JAVASCRIPT", "CANVAS"],
     source_code: "https://github.com/SuperCoolNinja/Paint-Web-App",
     demo: "https://supercoolninja.github.io/Paint-Web-App/",
     category: "web",
   },
   {
+    title: "TodoList",
+    subtitle: "Front-end - 2023",
+    description:
+      "A to-do list that enables us to record tasks to be done. We can delete, mark tasks as completed, and set a timer to challenge ourselves. Once all tasks are completed, they are automatically removed.",
+    image:
+      "https://image.noelshack.com/fichiers/2024/26/3/1719431087-screenshot-2024-06-26-214453.png",
+    stacks: ["HTML", "SASS", "TYPESCRIPT", "REACT"],
+    source_code: "https://github.com/SuperCoolNinja/todolist",
+    demo: "https://supercoolninja-todo-list.vercel.app/",
+    category: "web",
+  },
+
+  {
     title: "PongGame",
     subtitle: "Game Development - 2023",
     description: "a Pong Game made to learn and practise basic 2D Math Logic.",
     image:
-      "https://cdn.discordapp.com/attachments/554479498721099787/1145373492146077750/Capture_decran_2023-08-27_a_17.04.50.png",
+      "https://image.noelshack.com/fichiers/2024/26/3/1719431132-screenshot-2024-06-26-214537.png",
     stacks: ["LUA", "LOVE2D"],
     source_code: "https://github.com/SuperCoolNinja/love2D-pongGame",
     category: "game development",
@@ -75,7 +64,7 @@ export const cards: ICard[] = [
     description:
       "A Flappy Bird clone created to learn the basics of the Unity API.",
     image:
-      "https://cdn.discordapp.com/attachments/554479498721099787/1145376252044259471/Capture_decran_2023-08-27_a_17.16.03.png",
+      "https://image.noelshack.com/fichiers/2024/26/3/1719431180-screenshot-2024-06-26-214628.png",
     stacks: ["C#", "Unity3D"],
     demo: "https://supercoolninja.itch.io/flappyflytime",
     category: "game development",
