@@ -31,6 +31,11 @@
   background-color: rgba(0, 0, 0, 0.4); /* Couleur de la poignée au survol */
 }
 
+.slick-prev,
+.slick-next {
+  filter: brightness(0%);
+}
+
 *,
 ::before,
 ::after {
