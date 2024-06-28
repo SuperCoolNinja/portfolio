@@ -1,24 +1,6 @@
 import { ICard } from "../../interfaces/ICard";
 export const cards: ICard[] = [
   {
-    title: "EvenShare - Wild Code School",
-    subtitle: "FullStack - 2024",
-    description:
-      "A Bootcamp project, Web application that allows managing expenses between family, friends...",
-    image:
-      "https://image.noelshack.com/fichiers/2024/26/5/1719607227-screenshot-2024-06-28-224028.png",
-    stacks: [
-      "C# Asp.Net",
-      "Razor",
-      "Javascript",
-      "Bootstrap",
-      "Entity Framework",
-      "Docker",
-    ],
-    source_code: "https://github.com/SuperCoolNinja/portfolio",
-    category: "web",
-  },
-  {
     title: "ChatboxApp",
     subtitle: "FullStack - 2023",
     description:
