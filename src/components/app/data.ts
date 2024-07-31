@@ -1,6 +1,20 @@
 import { ICard } from "../../interfaces/ICard";
 export const cards: ICard[] = [
   {
+    title: "Resume Tool",
+    subtitle: "Frontend - 2024",
+    description:
+      "A modern resume creation tool made with React as assignment from odinProject.",
+    image:
+      "https://private-user-images.githubusercontent.com/28671231/353830520-316ad04b-b127-4832-bb5d-2e9393000ea3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0MzIwMzMsIm5iZiI6MTcyMjQzMTczMywicGF0aCI6Ii8yODY3MTIzMS8zNTM4MzA1MjAtMzE2YWQwNGItYjEyNy00ODMyLWJiNWQtMmU5MzkzMDAwZWEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDEzMTUzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhZDQxZjI0ZDE3MzVlZWI1ZDE1OTQ3MGEzNmUyMjZhNWRkM2I2ZDczYzViNTI0MjZlOTg0MTZlMDQ4OGNjY2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YaKk6Jq9ffr6ZdK1w-W3bNbBhGiYufSCB9yqAEsAwp8",
+    stacks: ["ReactJS"],
+    demo: "https://odin-assignment-resume.vercel.app/",
+    source_code:
+      "https://github.com/SuperCoolNinja/ResumeTool?tab=readme-ov-file",
+    category: "web",
+  },
+
+  {
     title: "ChatboxApp",
     subtitle: "FullStack - 2023",
     description:
