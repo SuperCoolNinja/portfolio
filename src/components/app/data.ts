@@ -49,18 +49,6 @@ export const cards: ICard[] = [
     demo: "https://supercoolninja.github.io/Paint-Web-App/",
     category: "web",
   },
-  {
-    title: "TodoList",
-    subtitle: "Front-end - 2023",
-    description:
-      "A to-do list that enables us to record tasks to be done. We can delete, mark tasks as completed, and set a timer to challenge ourselves. Once all tasks are completed, they are automatically removed.",
-    image:
-      "https://image.noelshack.com/fichiers/2024/26/3/1719431087-screenshot-2024-06-26-214453.png",
-    stacks: ["HTML", "SASS", "TYPESCRIPT", "REACT"],
-    source_code: "https://github.com/SuperCoolNinja/todolist",
-    demo: "https://supercoolninja-todo-list.vercel.app/",
-    category: "web",
-  },
 
   {
     title: "PongGame",
