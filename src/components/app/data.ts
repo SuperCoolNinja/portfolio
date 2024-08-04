@@ -6,7 +6,7 @@ export const cards: ICard[] = [
     description:
       "A modern resume creation tool made with React as assignment from odinProject.",
     image:
-      "https://private-user-images.githubusercontent.com/28671231/353995548-b4a8449a-817f-40a9-867e-99788636f551.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI3MTE1NzgsIm5iZiI6MTcyMjcxMTI3OCwicGF0aCI6Ii8yODY3MTIzMS8zNTM5OTU1NDgtYjRhODQ0OWEtODE3Zi00MGE5LTg2N2UtOTk3ODg2MzZmNTUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODAzVDE4NTQzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQwZjEyMzAwYWZlMjMxY2EwMWY1ZjkxODVhNjM2NDU5ZGIzYjdmZTQ4OWNjNGZkN2I1NDc0ZGJmMDhkZTEzY2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uZ1TxzXW0z1PF9j6FQ5-qwEjNRCQ5Gev8n23uD3Rqmk",
+      "https://image.noelshack.com/fichiers/2024/31/7/1722792178-image.png",
     stacks: ["ReactJS"],
     demo: "https://odin-assignment-resume.vercel.app/",
     source_code:
